@@ -56,7 +56,7 @@ elif media_ponderada >= 9:
 #Faça um programa que receba: * o código de um produto comprado, supondo que a digitação do código do produto seja sempre válida, ou seja, um número inteiro entre 1 e 10; * o peso do produto em quilos; * o código do pais de origem, supondo que a digitação do código do pais seja sempre valida, ou seja, um número inteiro entre 1 e 3. Tabelas.
 #Código do pais de origem Imposto 1 0% 2 15% 3 25% Código do Produto Preço pro grama 1 a 4 10 5 a 7 25 8 a 10 35 Calcule e mostre: a) O peso do produto convertido em gramas b) o preço total do produto comprado; c) o valor do imposto, sabendo-se que o imposto é cobrado sobre o preço total do produto comprado e que depende do país de origem; d) o valor total, preço total do produto mais imposto.
 
-#EXERCÍCIO LISTA II
+
 cod_prod = int(input("Informe o Código do Produto: "))
 peso = float(input("Informe o Peso (KG): "))
 cod_pais = int(input("Informe o Código do País: "))
